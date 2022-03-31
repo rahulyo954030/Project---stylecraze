@@ -1,4 +1,7 @@
 
+let navbarfun = ()=> {
+
+    
 // function dropdown codes start
 let createAllDropdown = (opt, optdropdown, options_title_1, options_title_2, options_title_3, options_title_4, options_title_5, options_title_6 ,options_title_7, options_url_1, options_url_2, options_url_3,options_url_4, options_url_5, options_url_6, options_imgContent_one, options_imgContent_two, options_imgContent_three, options_imgContent_four, options_imgContent_five, options_imgContent_six)=> {
 
@@ -331,3 +334,9 @@ function create(x){
     return document.createElement(x)
 }
 //document.createElement function codes/
+
+}
+
+
+
+export default navbarfun
