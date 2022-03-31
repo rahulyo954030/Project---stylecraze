@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#main-container{
+    display: flex;
+    gap: 2%;
+    padding: 1.4% 6% 0% 4%;
+    background-color: #fafafa;
+    font-family: "Poppins", sans-serif;
+}
+
+#main-container div:nth-child(1){
+    width: 22%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding: 10px 10px;
+}
+
+#main-container div:nth-child(1) div{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+#main-container div:nth-child(1) h2{
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-container div:nth-child(1) > p{
+    color: #676767;
+    font-size: 14.5px;
+    font-family: sans-serif;
+}
+
+#main-container div:nth-child(1) > div h2{
+    width: 20px;
+}
+
+#clear,
+#apply{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#clear{
+    margin-left: 19%;
+    color: #FE5C75;
+    margin-top: 5%;
+}
+
+#apply{
+    background-color: #FE5C75;
+    color: #ffffff;
+    padding: 12px 22px;
+}
+
+#main-container div:nth-child(2){
+    width: 76%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding-left: 10px;
+}
+
+#main-container div:nth-child(2) h2{
+    margin: 10px 0px 30px 0px;
+    font-size: 20px;
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-container div:nth-child(2) p{
+    font-weight: 900;
+    color: #212529;
+}
+
+#main-container div:nth-child(1) > div h4:hover,
+#main-container div:nth-child(1) > div h2:hover{
+    cursor: pointer;
+}
