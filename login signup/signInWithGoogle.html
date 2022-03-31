@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/signinGoogle.css">
+
+</head>
+<body>
+    <div id="gmail-container">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzC2JyZDZ_RaWf0qp11K0lcvB6b6kYNMoqtZAQ9hiPZ4cTIOB" alt="google img">
+            <p>Sign in with Google</p>
+        </div>
+        <hr>
+        <div id="choose">
+            <h1>Choose an account</h1>
+            <p>to continue to <span>stylecraze.com</span></p>
+        </div>
+        <div id="accounts">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2YH1p_uPlw-QIFXOf8VDvX-Mvuor3EkBLg&usqp=CAU" alt="account img">
+                <div>
+                    <h4>Masai Official</h4>
+                    <p>masaiofficial@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2YH1p_uPlw-QIFXOf8VDvX-Mvuor3EkBLg&usqp=CAU" alt="account img">
+                <div>
+                    <h4>Adam Jonathan</h4>
+                    <p>jonathanadam@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2YH1p_uPlw-QIFXOf8VDvX-Mvuor3EkBLg&usqp=CAU" alt="account img">
+                <div>
+                    <h4>Valorant Reyna</h4>
+                    <p>reynavalorant@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2YH1p_uPlw-QIFXOf8VDvX-Mvuor3EkBLg&usqp=CAU" alt="account img">
+                <div>
+                    <h4>Use another account</h4>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="content">
+            <p>To continue, Google will share your name, email address, language preference, and profile picture with stylecraze.com.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+
+let accounts = document.querySelectorAll("#accounts > div")
+
+for(let i=0; i<accounts.length; i++)
+{
+    accounts[i].addEventListener("click", ()=> {
+
+        window.location.href = "login.html"
+
+    })
+}
+
+</script>

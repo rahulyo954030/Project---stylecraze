@@ -44,7 +44,7 @@
             </div>
             <div>
                 <div id="signup">
-                    <div>Google</div>
+                    <div id="google">Google</div>
                     <div>Facebook</div>
                 </div>
                 <div>Not a Member? <a href="./signup.html">Sign Up</a></div>
@@ -56,3 +56,52 @@
 </html>
 
 <script src="./scripts/main.js"></script>
+
+<script>
+
+let loginArr = JSON.parse(localStorage.getItem("signupData"))
+
+document.querySelector("#myForm").addEventListener("submit", (event)=> {
+
+    event.preventDefault()
+
+    let username = document.querySelector("#username").value
+    let password = document.querySelector("#password").value
+
+    for(let i=0; i<loginArr.length; i++)
+    {
+        if(username === loginArr[i].username)
+        {
+            if(password === loginArr[i].password)
+            {
+                window.location.href = "#"
+                console.log("login Successful")
+            }
+            else
+            {
+                if( i < loginArr.length-1)
+                {
+                    continue
+                }
+                else
+                {
+                    alert("Invalid Credentials")
+                }
+            }
+        }
+        else
+        {
+            if( i < loginArr.length-1)
+            {
+                continue
+            }
+            else
+            {
+                alert("Invalid Credentials")
+            }
+        }
+    }
+
+})
+
+</script>

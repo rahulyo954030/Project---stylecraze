@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#gmail-container{
+width: 35%;
+margin: 40px auto;
+border-radius: 5px;
+font-family: 'Noto Sans', sans-serif;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#gmail-container > div:nth-child(1){
+    display: flex;
+}
+
+#gmail-container > div:nth-child(1) img{
+    height: 16px;
+    padding: 10px 12px 8px 20px;
+}
+
+#gmail-container > div:nth-child(1) p{
+    color: #5f6368;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+#gmail-container hr{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#choose{
+    text-align: center;
+    margin: 60px 0px 40px 0px;
+}
+
+#choose h1{
+    font-weight: 50;
+    font-size: 25px;
+    color: #202124;
+    margin-bottom: 10px;
+}
+
+#choose p{
+    color: #202124;
+    letter-spacing: .4px;
+}
+
+#choose span{
+    color: #1A73E8;
+    font-weight: 600;
+}
+
+#accounts{
+    width: 80%;
+    margin: auto;
+}
+
+#accounts > div{
+    display: flex;
+    margin: 14px 0px;
+}
+
+#accounts img{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#accounts h4{
+    font-size: 16px;
+    color: #3C4043;
+    margin-bottom: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#accounts p{
+    font-size: 13px;
+    font-weight: 100;
+    color: #5f6368;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+#content p{
+    font-size: 14px;
+    color: #5f6368;
+    letter-spacing: .2px;
+}
+
+#accounts > div:hover{
+    cursor: pointer;
+}

@@ -98,3 +98,15 @@ setInterval(function() {
 }, 2000)
 
 // slider content codes ends
+
+
+
+// google codes start
+
+document.querySelector("#google").addEventListener("click", ()=> {
+
+    window.location.href = "signInWithGoogle.html"
+
+})
+
+// google codes ends
