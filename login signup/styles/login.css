@@ -1,0 +1,145 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#login-container {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+#login-container div:nth-child(1) {
+  color: #000000de;
+  letter-spacing: 0.6px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+#myForm {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#username,
+#password {
+  width: 82%;
+  margin: auto;
+  height: 40px;
+  margin: 7px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: rgb(206, 206, 206);
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+#myForm > div {
+  text-align: end;
+  padding: 10px 0px;
+  width: 82%;
+  margin: auto;
+}
+
+#myForm > div a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 14px;
+}
+
+#myForm > div a:hover {
+  text-decoration: underline;
+}
+
+#submit {
+  height: 45px;
+  width: 82%;
+  background-color: #fe5c75;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0.8px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#login-container > div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  width: 82%;
+  margin: 30px auto 20px auto;
+}
+
+#login-container > div:nth-child(3) div:nth-child(2) {
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#login-container > div:nth-child(3) div:nth-child(1),
+#login-container > div:nth-child(3) div:nth-child(3) {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 0px;
+}
+
+#signup {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#signup > div {
+  width: 38%;
+  text-align: center;
+  padding: 8px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+#signup > div:nth-child(1) {
+  background-color: #fc5345;
+  color: #ffffff;
+}
+
+#signup > div:nth-child(2) {
+  background-color: #4c76be;
+  color: #ffffff;
+}
+
+#signup div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#signup ~ div {
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#signup ~ div a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+#signup ~ div a:hover {
+  text-decoration: underline;
+}

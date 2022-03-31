@@ -1,0 +1,57 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* middle div css start */
+
+#middle {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#middle p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 2.2%;
+  letter-spacing: 0.5px;
+  color: #000000de;
+  font-weight: 600;
+}
+
+#middle p:nth-child(2) {
+  font-size: 14.5px;
+  padding-bottom: 2%;
+  color: #212121;
+  font-weight: 600;
+}
+
+/* middle div css ends */
+
+/* last div css start */
+
+#middle ~ div {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#slideshow {
+  width: 33%;
+  height: 460px;
+}
+
+#slideshow img {
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow ~ div {
+  width: 33%;
+  height: 460px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+/* last div css ends */

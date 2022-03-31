@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#signup {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#signup > div {
+  width: 35%;
+  text-align: center;
+  padding: 10px 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+#signup > div:nth-child(1) {
+  background-color: #fc5345;
+}
+
+#signup > div:nth-child(2) {
+  background-color: #4c76be;
+}
+
+#signup div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#signup ~ div {
+  text-align: center;
+  padding: 30px 0px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+#signup ~ div a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+#signup ~ div a:hover {
+  text-decoration: underline;
+}
