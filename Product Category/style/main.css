@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar css start */
+#navbar-nail-art{
+    text-align: center;
+    padding: 0.5% 0% 1% 0%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#navbar-nail-art img{
+    height: 40px;
+}
+
+#navbar-nail-art img:hover{
+    cursor: pointer;
+}
+/* navbar css ends */
+
+
+/* mid content css start */
+#mid-content{
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+#mid-content > div{
+    margin: 20px 0px;
+}
+
+#mid-content > div:nth-child(1){
+    color: #ff5878;
+    font-size: 15px;
+}
+
+#mid-content > div:nth-child(2){
+    font-size: 27px;
+    color: #333333;
+}
+
+#mid-content > div:nth-child(3){
+    font-size: 14px;
+    color: #636363;
+}
+
+#mid-content > div:nth-child(3) span{
+    color: #ff5878;
+}
+
+#mid-content > div:nth-child(4){
+    font-size: 13px;
+    color: #636363;
+    font-style: italic;
+}
+
+#mid-content > div:nth-child(4) span{
+    color: #337AB7;
+}
+
+#mid-content > div:nth-child(5),
+#mid-content > div:nth-child(6){
+    font-size: 18px;
+    color: #424242;
+}
+/* mid contenet css ends */
+
+
+/* table css starts */
+#table > div{
+    display: flex;
+    padding: 10px 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+#table > div:nth-child(1){
+    background-color: #D9EDF7;
+    color: #636363;
+    font-weight: 900;
+    padding: 10px 12%;
+}
+
+#table > div:nth-child(2),
+#table > div:nth-child(3),
+#table > div:nth-child(4),
+#table > div:nth-child(5),
+#table > div:nth-child(6),
+#table > div:nth-child(7),
+#table > div:nth-child(8),
+#table > div:nth-child(9),
+#table > div:nth-child(10),
+#table > div:nth-child(11){
+    color: #ff5878;
+}
+
+#table > div div{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#table > div > div a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#table > div > div a:nth-child(1){
+    background-color: #FBA806;
+}
+
+#table > div > div a:nth-child(2){
+    background-color: #007DC6;
+}
+
+#table > div > p{   
+    padding: 10px 15px;
+}
+/* table css ends */
