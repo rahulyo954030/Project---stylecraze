@@ -1,0 +1,92 @@
+
+        *{
+            font-family: 'Poppins',sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+        * img{
+            border-radius: 50%;
+            width: 3%;
+            height: 3%;
+        }
+        #container{
+            justify-content: center;
+            padding-bottom: 5%;
+            
+        }
+        #div1{
+            background-color:  #bfc2c5;
+            padding-top: 1%;
+            padding-bottom: 2%;
+        }
+        #div1 h3,p{
+            margin-left: 5%;
+            margin-right: 8%;
+        }
+        #div1 h3{
+            font-weight: 550;
+            margin-bottom: 1.5%;
+            color: rgb(31, 28, 28);
+        }
+        #div1 p{
+            font-weight: 10;
+            color: #676767;
+            font-size: 18px;
+            /* opacity: 70%; */
+            
+        }
+        #div2{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: end;
+            
+        }
+        #div2 p{
+            color: #fe5b75;
+            font-size: 20px;
+            font-weight: 50;
+            margin-right: 5%;
+        }
+        hr{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        #div3,#div4,#div5,#div6,#div7,#div8,#div9,#div10{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            font-size: 20px;
+            font-weight: 50;
+            color: #212121;
+        }
+        #productDiv{
+            font-size: 24px;
+            color: #676767;
+            padding-top: 2%;
+            padding-bottom: 1.5%;
+            
+        }
+        #page-select {
+            display: flex;
+            padding-top: 1%;
+            padding-left: 5%;
+            background-color:  #bfc2c5;
+            font-style: italic;
+            gap: 0.7%;
+        }
+  
+        #page-select a {
+            text-decoration: none;
+            color: #676767;
+            font-size: 13px;
+            font-family: sans-serif;
+            
+        }
+        hr{
+            width: 80%;
+            margin-left: 5%;
+        }
+   
