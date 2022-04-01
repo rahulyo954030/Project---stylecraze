@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+    <style>
+        *{
+            font-family: 'Poppins',sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+        * img{
+            border-radius: 50%;
+            width: 3%;
+            height: 3%;
+        }
+        #container{
+            justify-content: center;
+            padding-bottom: 5%;
+            
+        }
+        #div1{
+            background-color:  #bfc2c5;
+            padding-top: 1%;
+            padding-bottom: 2%;
+        }
+        #div1 h3,p{
+            margin-left: 5%;
+            margin-right: 8%;
+        }
+        #div1 h3{
+            font-weight: 550;
+            margin-bottom: 1.5%;
+            color: rgb(31, 28, 28);
+        }
+        #div1 p{
+            font-weight: 10;
+            color: #676767;
+            font-size: 18px;
+            /* opacity: 70%; */
+            
+        }
+        #div2{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: end;
+            
+        }
+        #div2 p{
+            color: #fe5b75;
+            font-size: 20px;
+            font-weight: 50;
+            margin-right: 5%;
+        }
+        hr{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        #div3,#div4,#div5,#div6,#div7,#div8,#div9,#div10{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            font-size: 20px;
+            font-weight: 50;
+            color: #212121;
+        }
+        #productDiv{
+            font-size: 24px;
+            color: #676767;
+            padding-top: 2%;
+            padding-bottom: 1.5%;
+            
+        }
+        #page-select {
+            display: flex;
+            padding-top: 1%;
+            padding-left: 5%;
+            background-color:  #bfc2c5;
+            font-style: italic;
+            gap: 0.7%;
+        }
+  
+        #page-select a {
+            text-decoration: none;
+            color: #676767;
+            font-size: 13px;
+            font-family: sans-serif;
+            
+        }
+        hr{
+            width: 80%;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="page-select">
+        <div>
+        <a href="#">Home</a>
+    </div>
+        <div id="arrow">
+        <p>»</p>
+        </div>
+        <div>
+        <a href="./index.html">Help</a>
+        <img src="" alt="">
+    </div>
+    </div>
+    <div id="container"></div>
+      
+</body>
+</html>
+<script>
+    let div1 = document.createElement("div")
+    div1.setAttribute("id","div1")
+
+    let help = document.createElement("h3")
+    help.innerHTML = "HELP"
+
+    let dis1 = document.createElement("p")
+    dis1.innerHTML = "Need a bit of help understanding the elaborate product analyses on our page? We have broken it down for your ease. This will help you navigate through our platform smoothly."
+    div1.append(help,dis1)
+
+    let div2 = document.createElement("div")
+    div2.setAttribute("id","div2")
+    let visit = document.createElement("p")
+    visit.innerHTML = "Visit FAQ’s ➞"
+    div2.append(visit)
+
+    let div3 = document.createElement("div")
+    div3.setAttribute("id","div3")
+    let heading1 = document.createElement("h3")
+    heading1.innerHTML= "What is Product Analysis";
+    let arrow1 = document.createElement("img")
+    arrow1.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div3.append(heading1,arrow1)
+
+    let line1 = document.createElement("hr")
+
+    let div4 = document.createElement("div")
+    div4.setAttribute("id","div4")
+    let heading2 = document.createElement("h3")
+    heading2.innerHTML="How does it help the user"
+    let arrow2 = document.createElement("img")
+    arrow2.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div4.append(heading2,arrow2)
+
+    let line2 = document.createElement("hr")
+
+    let div5 = document.createElement("div")
+    div5.setAttribute("id","div5")
+    let heading3 = document.createElement("h3")
+    heading3.innerHTML="How can I help and support"
+    let arrow3 = document.createElement("img")
+    arrow3.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div5.append(heading3,arrow3)
+
+    let line3 = document.createElement("hr")
+
+    let productDiv = document.createElement("div")
+    productDiv.setAttribute("id","productDiv")
+    let product = document.createElement("p")
+    product.innerHTML="Product Analysis Detailed Guide"
+    productDiv.append(product)
+
+    let line4 = document.createElement("hr")
+
+    let div6 = document.createElement("div")
+    div6.setAttribute("id","div6")
+    let heading4 = document.createElement("h3")
+    heading4.innerHTML="Broad Features:"
+    let arrow4 = document.createElement("img")
+    arrow4.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div6.append(heading4,arrow4)
+
+    let line5 = document.createElement("hr")
+
+    let div7 = document.createElement("div")
+    div7.setAttribute("id","div7")
+    let heading5 = document.createElement("h3")
+    heading5.innerHTML="Product Properties"
+    let arrow5 = document.createElement("img")
+    arrow5.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div7.append(heading5,arrow5)
+
+    let line6 = document.createElement("hr")
+
+    let div8 = document.createElement("div")
+    div8.setAttribute("id","div8")
+    let heading6 = document.createElement("h3")
+    heading6.innerHTML="Overview of Top Ingredients:"
+    let arrow6 = document.createElement("img")
+    arrow6.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div8.append(heading6,arrow6)
+
+    let line7 = document.createElement("hr")
+
+    let div9 = document.createElement("div")
+    div9.setAttribute("id","div9")
+    let heading7 = document.createElement("h3")
+    heading7.innerHTML="Safety Ratings"
+    let arrow7 = document.createElement("img")
+    arrow7.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div9.append(heading7,arrow7)
+
+    let line8 = document.createElement("hr")
+
+    let div10 = document.createElement("div")
+    div10.setAttribute("id","div10")
+    let heading8 = document.createElement("h3")
+    heading8.innerHTML="Certifications"
+    let arrow8 = document.createElement("img")
+    arrow8.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvAc6hyMjhJiTEFh4XdhJcudJyCRSSaNrcBlVD8J4Q5U48mupSXDDhgCIGO0cEp1mLgPA&usqp=CAU"
+    div10.append(heading8,arrow8)
+
+    
+
+
+    // <----------------------------append-------------------------------->
+
+    document.querySelector("#container").append(div1,div2,div3,line1,div4,line2,div5,line3,productDiv,div6,line4,div7,line5,div8,line6,div9,line7,div10,line8)
+
+    // <----------------------------append-------------------------------->
+</script>
