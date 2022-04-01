@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #content1{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+            font-family: sans-serif;
+            margin-top: 100px;
+        }
+        #text{
+            margin-top: 30px;
+        }
+       
+        #list li p{
+            text-decoration: none;
+            color: #333;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        #text h2{
+            font-size: 26px;
+            font-weight: 600;
+        }
+        #text p{
+            line-height: 1.7;
+        }
+        #text p a{
+            text-decoration: none;
+            color: salmon;
+            font-weight: 600;
+        }
+        #text p a:hover, #list li p:hover{
+            color: salmon;
+            width: 50%;
+            border-bottom: 2px solid salmon;
+        }
+    </style>
+</head>
+<body>
+    <div id="title" style="width:240px; height:350px; background-color: whitesmoke;position: fixed; margin-left: 5%; font-family: sans-serif;margin-top: 30px;">
+        <p style="font-weight: bold; font-size: 15px;margin-left: 20px;">Table Of Contents</p>
+        <ul style="list-style: none;" id="list">
+            <li><p style="color:salmon" onclick="dothid()">About Us</p></li>
+            <li><p>Our Review Board</p></li>
+            <li><p>Editorial Policies</p></li>
+            <li><p>Our Team</p></li>
+            <li><p>Our Parent Company</p></li>
+            <li><p>Our Policies</p></li>
+            <li><p>Contact Us</p></li>
+        </ul>
+    </div>
+    <div id="content1">
+        <div></div>
+        
+        <div id="text">
+            <h2 id="first" style="margin-top: 0px;">Empower and inspire women of today to lead healthier and happier lives</h2>
+            <p>StyleCraze is a global women's platform that aims to answer one question: what do women want? From health and wellness to lifestyle and beauty – we provide answers to women in all spheres to celebrate their unique needs and individuality. Our goal is to empower women from all walks of life and various intersections of identity to lead healthier and happier <br><br>               We have a highly engaged audience of 25 million (and counting!) across all platforms. We focus on Health & Wellness, Skin Care, Hair Care, Makeup, Hairstyles, Fashion, Relationships, and more. Whether it is advice from a trusted expert or a DIY tutorial, we have it all covered.</p>
+        
+            <h2>Our Review Board</h2>
+            <p>StyleCraze’s review board consists of a team of board-certified doctors, registered dietitians and nutritionists, dermatologists, and beauty and wellness experts who ensure that our articles are medically and factually accurate, evidence-based, current, relevant, and reader-centric. These highly experienced professionals not only verify the content but also add their unique perspective based on their diverse experience and backgrounds in research and applied clinical practice.
+
+            <br><br> Know more about our <a href="https://www.stylecraze.com/medical-team/">medical review board </a> and <a href="https://www.stylecraze.com/expert-panel/">expert panel.</a></p>
+        
+            <h2>Editorial Policies</h2>
+            <p>StyleCraze’s articles are accurate, current, relevant, and actionable. They are written, edited, and fact-checked by qualified writers, editors, and other contributors who are experts in their areas. The articles are also fact-checked and reviewed by our team of reviewers to ensure the accuracy and relevancy of information provided in the articles.
+
+            <br><br> Learn more about our <a href="https://www.stylecraze.com/editorial-guidelines/"> editorial policy.</a></p>    
+        
+            <h2>Our Team</h2>
+            <p>The editorial team is responsible for managing all of the content on our website. Our experienced and certified editors and writers are specialists in their areas of coverage and break down complex information in a clear, easy-to-understand format.
+
+            <br><br>    Know more about our <a href="https://www.stylecraze.com/editorial-team/">editorial </a> and <a href="https://www.stylecraze.com/our-team/"> management teams.</a></p>
+        
+            <h2>Our Parent Company</h2>
+            <p>StyleCraze is a part of <a href="https://www.incnut.com/"> IncNut Digital Pvt. Ltd</a>, which also owns media brands <a href="https://www.momjunction.com/"> Momjunction</a> and <a href="https://www.thebridalbox.com/"> The Bridal Box</a>, and commerce brands <a href="https://skinkraft.com/"> Skinkraft</a> and <a href="https://vedix.com/"> Vedix.</a> Together, we reach around 25 million users every month.
+               <br><br>Learn more about the <a href="https://www.stylecraze.com/leadership-team/"> leadership </a> and <a href="https://www.incnut.com/team.html"> Incnut teams.</a> 
+            </p>
+        
+            <h2>Our Policies</h2>
+            <h3>Privacy Policy</h3>
+            <p>StyleCraze has a strict privacy policy to protect the interests and concerns of its readers. The Privacy Policy details how we collect, use, and disclose information collected through our platforms.
+
+            <br><br>    Read our <a href="https://www.stylecraze.com/privacy-policy/"> Privacy Policy.</a></p>
+
+            <h2>Advertising Policy</h2>
+            <p>StyleCraze aims to provide access to quality content to its readers. To help us maintain the resources needed to achieve this goal, we accept and display advertisements on the site. However, there is a clear demarcation between editorial and advertising content.
+
+            <br><br>    For more details, read our <a href="https://www.stylecraze.com/advertising-policy/"> Advertising Policy.</a></p>
+
+            <h2>Terms of Use</h2>
+            <p>Access to and use of StyleCraze is subjected to certain terms and conditions. Using our web platforms indicates that you agree to the <a href="https://www.stylecraze.com/terms-of-use/"> Terms Of Use.</a></p>
+
+            <h2>Contact Us</h2>
+            <p>We highly value your feedback/queries/suggestions. You can send them to <a href="support@stylecraze.com"> support@stylecraze.com </a> or contact us <a href="https://www.stylecraze.com/contact-us/"> here.</a></p>
+
+            <h2>Our Mailing Addresses:</h2>
+            <h3>Hyderabad</h3>
+            <p>
+                IncNut Digital Pvt Ltd,
+            <br>    G-3 (Ground Floor),
+            <br>    Modern Profound Tech Park,
+            <br>    Whitefields, Kondapur,
+            <br>    Hyderabad - 500081, Telangana
+            <br>    Phone: 040-39560308
+            </p>
+
+            <h3>Bangalore</h3>
+            <p>
+                IncNut Digital Pvt Ltd
+            <br>    845, 2nd Cross, 7th Main, Sodepur, Appareddipalya,
+            <br>    Indiranagar, Bengaluru - 560038
+            <br>    Karnataka
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script>
+    function dothis(event){
+        event.preventDefault();
+        // let text = document.getElementById("first");
+        // text.style.marginTop="0px";
+        console.log(x);
+    }
+</script>
