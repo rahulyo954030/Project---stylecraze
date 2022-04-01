@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- header css -->
-    <link rel="stylesheet" href="./header.css"> 
+    <link rel="stylesheet" href="./styles/header.css"> 
     <!-- footer css -->
-    <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/homepage.css">
 </head>
 <body>
     <!-- header div -->
@@ -68,7 +68,7 @@
 </html>
 <script type="module">
     // Import Header Here from Header.js
-    import {header,footer} from "./header.js";
+    import {header,footer} from "./components/header.js";
     let navbar = document.querySelector("#header_div");
     navbar.innerHTML = header();
 
@@ -77,4 +77,4 @@
     footermain.innerHTML = footer();
 
 </script>
-<script src="./script.js"></script>
+<script src="./scripts/script.js"></script>
