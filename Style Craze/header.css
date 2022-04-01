@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#page_header{
+    width: 78%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    grid-gap: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+img{
+    height: 75%;
+    width: 75%;
+}
+.space{
+    margin-left: 20px;
+}
+.account_option{
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    
+}
+
+.button_option{
+    padding: 10px 25px;
+    background: #fe5c75;
+    color: #fff;
+    font: 16px/22px Poppins;
+    letter-spacing: .19px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+input{
+    width: 70%;
+    border: 1px solid #d3d3d3;
+    opacity: .4;
+    outline: 0;
+    padding-left: 5%;
+    height: 40px;
+    background: #fafafa;
+    font-size: 14px/40px Poppins Medium;
+}
+#main_cont{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#main_pages{
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: auto;
+    width: 78%;
+}
+#main_pages>div{
+    margin-right: 3%;
+    padding: 10px 0 10px 0;
+    font: 16px/22px Poppins;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pages_link{
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #fe5c75;
+}
+@media only screen and (min-width: 0px) and (max-width: 391px) {
+    #page_header{
+        font-family:Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        
+        
+    }
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+        align-items: center;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    input{
+        width: 70%;
+        padding-right: 10px;
+        font-size: 10px;
+        margin: auto;
+        margin-left: 12%;
+
+    }
+    .account_option{
+        padding-left: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}

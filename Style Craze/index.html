@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- header css -->
+    <link rel="stylesheet" href="./header.css"> 
+    <!-- footer css -->
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+    <!-- header div -->
+    <div id="header_div"></div>
+
+    <!-- mid material -->
+    <div id="banner">
+        <div id="banner_img_text">
+            <!-- Banner Image and Other Text -->
+            <img class="banner_img" src="https://www.stylecraze.com/wp-content/uploads/static-content/pr-images/banner-img.svg" alt="investor">
+            <h1 class="banner-text-large">Discover & Compare Beauty Products</h1>
+            <p class="banner-text-small">Product Analysis. Compare. Buy</p>
+            <input class="search_value" type="text" placeholder="Search for Products, Categories & Brands">
+            <span class="finder-link"><a href="#" class="loader-link">Product Finder</a></span>
+        </div>
+    </div>
+    <!-- Discover Benefits List -->
+    <div id="list_items">
+        <div id="benefits">
+            <div id="looknew">
+                <h2 class="benefits_title">Discover Products With Benefits</h2>
+                <p class="look">View All
+                    <img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/pr-images/arrow-right.svg);" alt="">
+                </p>
+            </div>
+            <div id="benefits_types"></div>
+
+            <!-- Top Categoires -->
+            <div id="looknew">
+                <h2 class="catagories_title">Top Categories</h2>
+                <p class="look">View All
+                    <img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/pr-images/arrow-right.svg);" alt="">
+                </p>
+            </div>
+            <div id="categories_list"></div>
+
+            <!-- Top Brands -->
+            <div id="looknew">
+                <h2 class="brands_title">Top Brands</h2>
+                <p class="look">View All
+                    <img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/pr-images/arrow-right.svg);" alt="">
+                </p>
+            </div>
+            <div id="brands_list"></div>
+
+            <!-- Feature Products -->
+            <h2 class="products_title">Feature Products</h2>
+            <div id="product_list"></div>
+        </div>
+        
+    </div>
+
+    <!-- footer div -->
+    <div id="footer_bar"></div>
+</body>
+</html>
+<script type="module">
+    // Import Header Here from Header.js
+    import {header,footer} from "./header.js";
+    let navbar = document.querySelector("#header_div");
+    navbar.innerHTML = header();
+
+    // Import Footer Here from footer.js
+    let footermain = document.querySelector("#footer_bar");
+    footermain.innerHTML = footer();
+
+</script>
+<script src="./script.js"></script>
