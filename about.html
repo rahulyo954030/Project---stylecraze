@@ -48,13 +48,13 @@
     <div id="title" style="width:240px; height:350px; background-color: whitesmoke;position: fixed; margin-left: 5%; font-family: sans-serif;margin-top: 30px;">
         <p style="font-weight: bold; font-size: 15px;margin-left: 20px;">Table Of Contents</p>
         <ul style="list-style: none;" id="list">
-            <li><p style="color:salmon" onclick="dothid()">About Us</p></li>
-            <li><p>Our Review Board</p></li>
-            <li><p>Editorial Policies</p></li>
-            <li><p>Our Team</p></li>
-            <li><p>Our Parent Company</p></li>
-            <li><p>Our Policies</p></li>
-            <li><p>Contact Us</p></li>
+            <li><p style="color:salmon" onclick="dothis(`0`)">About Us</p></li>
+            <li><p onclick="dothis(`-300px`)">Our Review Board</p></li>
+            <li><p onclick="dothis(`-540px`)">Editorial Policies</p></li>
+            <li><p onclick="dothis(`-750px`)">Our Team</p></li>
+            <li><p onclick="dothis(`-900px`)">Our Parent Company</p></li>
+            <li><p onclick="dothis(`-1100px`)">Our Policies</p></li>
+            <li><p onclick="dothis(`-1650px`)">Contact Us</p></li>
         </ul>
     </div>
     <div id="content1">
@@ -126,10 +126,9 @@
 </html>
 
 <script>
-    function dothis(event){
+    function dothis(x){
         event.preventDefault();
-        // let text = document.getElementById("first");
-        // text.style.marginTop="0px";
-        console.log(x);
+        let text = document.getElementById("first");
+        text.style.marginTop=x;
     }
 </script>
