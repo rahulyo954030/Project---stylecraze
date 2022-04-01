@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar css starts */
+#navbar{
+    display: flex;
+    padding: 1.2% 6%;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+#navbar > div:nth-child(1){
+    width: 25%;
+}
+
+#navbar > div:nth-child(2){
+    width: 50%;
+}
+
+#navbar > div:nth-child(3){
+    width: 25%;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+#navbar > div:nth-child(1) img{
+    height: 36px;
+}
+
+#navbar > div input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+}
+
+#navbar > div:nth-child(3) p{
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+#navbar > div:nth-child(3) p:nth-child(2){
+    background-color: #FE5C75;
+    color: #ffffff;
+}
+
+/* navbar css ends */
+
+
+/* slider-1 css starts */
+#slider-1{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+#slider-1 img{
+    object-fit: cover;
+}
+/* slider-1 css ends */
+
+
+
+/* middle div css start */
+#middle-div{
+    width: 91%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#categories{
+    width: 25%;
+    background-color: #fafafa;
+}
+
+#categories > div,
+#campaigns > div{
+    display: flex;
+    padding: 10px 15px;
+}
+
+#categories > div:nth-child(1){
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333333;
+}
+
+#categories > div input{
+    height: 16px;
+    width: 20px;
+    margin-right: 12px;
+    background-color: #ffffff;
+}
+
+#categories > div > p{
+    color: #212121;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#categories hr{
+    margin: 5px 15px;
+}
+
+#categories > div:last-child{
+    justify-content: space-between;
+}
+
+#categories > div:last-child p{
+    color: #FE5C75;
+    font-size: 16px;
+}
+
+#campaigns{
+    width: 75%;
+    background-color: #ffffff;
+}
+
+#campaigns > div:nth-child(1){
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#campaigns > div:nth-child(1) h2{
+    font-weight: 600;
+    color: #222222;
+}
+
+#campaigns > div:nth-child(1) button{
+    font-size: 16px;
+    padding: 6px 20px;
+}
+
+#campaigns > hr{
+    margin: 0px 15px;
+}
+
+#campaigns > div:last-child p{
+    margin-top: 50px;
+    color: #696969;
+    font-size: 15px;
+}
+
+#categories > div input,
+#campaigns > div:nth-child(1) button,
+#categories > div:last-child p,
+#categories > div > p,
+#navbar > div:nth-child(1) img,
+#navbar > div:nth-child(3) p{
+    cursor: pointer;
+}
+/* middle div css ends */
+
+
+/* slider-2 css start */
+#slider-2{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f8f8f8;
+}
+
+#slider-2 h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+#image-container{
+    margin: 20px 50px 10px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#image-container img{
+    height: 30px;
+    width: 8%;
+}
+/* slider-2 css ends */ 
+
+
+/* footer css start */
+#footer{
+    width: 100%;
+    text-align: center;
+    background-color: #292828;
+    padding: 25px 0px;
+}
+
+#footer p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#footer > p span{
+    font-weight: 600;
+    font-size: 16px;
+}
+/* footer css ends */
