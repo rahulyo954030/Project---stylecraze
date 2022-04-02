@@ -1,19 +1,19 @@
 category = [
     {
         img : "https://cdn2.stylecraze.com/wp-content/uploads/2012/09/Best-Nail-Polish-Colors-For-Olive-Tan-Light-Medium-Skins.jpg.webp",
-        category : "category",
+        category : "Nail Art",
         title : "Best Nail Polish Colors For All Skin Tones",
         detail : "A well-done coat of nail polish can make your hands look appealing. And there are some nail colors that look best on medium skin, some on olive skin, and some on tanned skin. So, we have put together a list […]"
     },
     {
         img : "https://cdn2.stylecraze.com/wp-content/uploads/2013/07/15-Best-Hairstyling-Products-For-All-Hair-Types-banner.jpg.webp",
-        category : "category",
+        category : "Hair Styles",
         title : "17 Best Hairstyling Products For All Hair Types",
         detail : "Using the best hair styling products can give the edge to the hairstyle you have always wanted to flaunt. Be it a hair cream, hair spray, foam, or mousse, using the product that suits your hair is essential to making […]"
     },
     {
         img : "https://cdn2.stylecraze.com/wp-content/uploads/2012/04/1274-10-Best-Foundations-For-Asian-Skin-Tone-ss.jpg.webp",
-        category : "category",
+        category : "Face Makeup",
         title : "10 Best Foundations For Asian Skin Tone",
         detail : "A foundation helps cover all imperfections, blemishes, and dark spots on your skin. However, finding the best foundation for Asain skin tones is a real task. Asian skin tones are unique and native to this continent. We have cooler and […]"
     },
@@ -235,11 +235,13 @@ showit = (pass) =>{
     main.innerText = null
     pass.forEach(ele => {
         div = document.createElement("div")
+
         i = document.createElement("img")
         i.src = ele.img
         pink = document.createElement("p")
         pink.innerText = ele.category
         pink.className = "pink"
+
         black = document.createElement("p")
         black.innerText = ele.title
         black.className = "black"
@@ -272,3 +274,5 @@ change = () =>{
 
 select = document.querySelector("#cat_list")
 select.addEventListener("click",change)
+
+
