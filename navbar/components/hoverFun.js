@@ -328,7 +328,6 @@ let optionsSix = createAllDropdown(optSix, optSixdropdownSix, optionsSix_title_1
 
 
 //document.createElement function codes
-
 function create(x){
 
     return document.createElement(x)
