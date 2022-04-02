@@ -7,7 +7,7 @@
     height: auto;
     margin-top: 4%;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 28px/25px ; 
     font-weight: 400; 
 }
@@ -51,7 +51,7 @@
     padding-top: 2%;
 }
 .benefits_title,.catagories_title,.brands_title,.products_title{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 20px;
     padding-top: 20px;
     width: 70%;
@@ -63,7 +63,7 @@
     text-align: center;
 }
 #benefits_types>div,#categories_list>div {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',sans-serif;
     padding-top: 0px;
 }
 .benefits_image,.categories_image{
@@ -83,7 +83,7 @@
     cursor: pointer;
     width: 100%;
     font-size: 16px;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .productName{
    font-size: 14px;
@@ -97,7 +97,7 @@
 }
 .p1name,.p2name{
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 12px
 }
 .brands_image{
@@ -112,7 +112,7 @@
     word-wrap: break-word;
     padding: 5px;
     border-radius: 4px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Poppins',sans-serif;
     text-align: left;
 }
 .product_image{
@@ -165,7 +165,7 @@
 .look{
     font-size: 14px;
     color: #fe5c75;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',sans-serif;
     text-align: right;
     padding-right: 20px;
     padding-top: 25px;

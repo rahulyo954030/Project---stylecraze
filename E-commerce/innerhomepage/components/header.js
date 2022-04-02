@@ -64,7 +64,7 @@ let footer = () => {
                 <div><a class = "footer_links" href="#">Help</a></div>
                 <div><a class = "footer_links" href="#">FAQ's</a></div>
                 <div><a class = "footer_links" href="#">Report an Issue</a></div>
-                <div><a class = "footer_links" href="#">Contact Us</a></div>
+                <div><a class = "footer_links" href="./contactus.html">Contact Us</a></div>
             </div>
         </div>
         <div class="links">
