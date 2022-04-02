@@ -14,6 +14,10 @@
 </head>
 <body>
     <div id="navbar-container"></div>
+<<<<<<< Updated upstream:outer/subheader/product-page.html
+=======
+
+>>>>>>> Stashed changes:outer/subheader/product-page/js.html
     <center><h1>Shop</h1></center>
     <select class="sc_products cat_list" title="category" id="cat_list">
         <option value="Category">Category</option>
@@ -81,6 +85,7 @@
 <div id="footer_below"></div>
 
 </body>
+<<<<<<< Updated upstream:outer/subheader/product-page.html
 <link rel="stylesheet" href="./tools-brands/style/product-page.css">
 <script src="./tools-brands/script/product-page.js"></script>
 <script type="module">
@@ -101,3 +106,18 @@
 </html>
 
 <!-- outer\homepageNavbar\components -->
+=======
+<link rel="stylesheet" href="js.css">
+<script src="js.js"></script>
+</html>
+<script type="module">
+
+    import {navbar} from "./homepageNavbar/components/navbar.js"
+    // import hoverFun from "./components/hoverFun.js"
+    
+    document.querySelector("#navbar-container").innerHTML = navbar()
+    
+    // hoverFun()
+    
+    </script>
+>>>>>>> Stashed changes:outer/subheader/product-page/js.html
