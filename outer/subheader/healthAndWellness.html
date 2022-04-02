@@ -7,6 +7,8 @@
     <title>health and wellness</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="../footer/footer2.css">
+
 </head>
 <body>
     <div id="navbar-container"></div>
@@ -23,6 +25,7 @@
     </div>
     </div>
         <div id="container"></div>
+        <div id="footer_below"></div>
 </body>
 </html>
 <script src="script/healthAndWellness.js"></script>
@@ -31,6 +34,10 @@
 
     import navbar from "./components/navbar.js"
     import hoverFun from "./components/hoverFun.js"
+    import footer from "../footer/footer.js"
+ 
+ document.querySelector("#footer_below").innerHTML = footer()
+
     console.log(navbar);
     document.querySelector("#navbar-container").innerHTML = navbar()
     

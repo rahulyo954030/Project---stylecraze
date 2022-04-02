@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./tool.css"/>
+    <link rel="stylesheet" href="../../../footer/footer2.css">
+    <link rel="stylesheet" href="../../../homepageNavbar/styles/navbar.css">
+
+
 </head>
 
 
 <body>
+    <div id="navb_ar"></div>
     <div id="main">
         <div id="upper_container">
 
@@ -439,6 +444,17 @@
             
         </div>
     </div>
-</body>
+    <div id="footer_below"></div>
 
+</body>
+<script type="module">
+ import footer from "../../../footer/footer.js"
+ import navebar from "../../../homepageNavbar/components/navbar.js"
+
+//  
+ document.querySelector("#footer_below").innerHTML = footer()
+ document.querySelector("#navb_ar").innerHTML = navebar()
+
+
+</script>
 </html>

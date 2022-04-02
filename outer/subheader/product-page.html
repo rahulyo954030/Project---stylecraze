@@ -7,6 +7,10 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="../style/main.css"> -->
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="../footer/footer2.css">
+    
+
+
 </head>
 <body>
     <div id="navbar-container"></div>
@@ -72,7 +76,10 @@
 
 
     <div class="photo">
+
 </div>
+<div id="footer_below"></div>
+
 </body>
 <link rel="stylesheet" href="./tools-brands/style/product-page.css">
 <script src="./tools-brands/script/product-page.js"></script>
@@ -81,6 +88,10 @@
     // import navbar from "../homepageNavbar/components/navbar.js"
     import navbar from "./components/navbar.js"
     import hoverFun from "./components/hoverFun.js"
+    import footer from "../footer/footer.js"
+ 
+ document.querySelector("#footer_below").innerHTML = footer()
+
     
     document.querySelector("#navbar-container").innerHTML = navbar()
     

@@ -47,7 +47,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto
+    margin: auto;
+    height: 119px;
 }
 
 #footer_child>div {

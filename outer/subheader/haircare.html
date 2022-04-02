@@ -7,6 +7,8 @@
     <title>hair care</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="../footer/footer2.css">
+
     
 </head>
 <body>
@@ -23,7 +25,8 @@
         <img src="" alt="">
     </div>
     </div>
-        <div id="container"></div>
+    <div id="container"></div>
+        <div id="footer_below"></div>
 </body>
 </html>
 <script src="script/haircare.js"></script>
@@ -32,9 +35,14 @@
 
     import navbar from "./components/navbar.js"
     import hoverFun from "./components/hoverFun.js"
+    import footer from "../footer/footer.js"
+ 
+ document.querySelector("#footer_below").innerHTML = footer()
+
     console.log(navbar);
     document.querySelector("#navbar-container").innerHTML = navbar()
     
     hoverFun()
+
     
     </script>

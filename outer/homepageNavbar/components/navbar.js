@@ -1,12 +1,13 @@
 
 
-const navbar = ()=> {
+const navbar = () => {
 
     return `<div id="navbar">
                     
                 <div id="first">
                     <div>
-                        <img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="logo">
+                 <img src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt="logo">
+               
                     </div>
                     <div>
                         <input type="text" placeholder="Search">
@@ -40,7 +41,7 @@ const navbar = ()=> {
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="./outer/subheader/tools-brand/component/tool.html">TOOLS</a>
+                        <a id="" href="../../../outer/subheader/tools-brands/tool/tool.html">TOOLS</a>
                     </div>
                     <hr>
                     <div id="">

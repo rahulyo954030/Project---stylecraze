@@ -7,6 +7,7 @@
     <title>make up</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="../footer/footer2.css">
 </head>
 <body>
     <div id="navbar-container"></div>
@@ -23,6 +24,7 @@
     </div>
     </div>
         <div id="container"></div>
+        <div id="footer_below"></div>
 </body>
 </html>
 <script src="script/makeup.js"></script>
@@ -31,9 +33,14 @@
 
     import navbar from "./components/navbar.js"
     import hoverFun from "./components/hoverFun.js"
+    import footer from "../footer/footer.js"
+console.log(footer)
+document.querySelector("#footer_below").innerHTML = footer()
+
     console.log(navbar);
     document.querySelector("#navbar-container").innerHTML = navbar()
     
     hoverFun()
+
     
     </script>

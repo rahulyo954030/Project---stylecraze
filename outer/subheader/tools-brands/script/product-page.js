@@ -279,13 +279,14 @@ function clicked(ele){
     parent = ele.target.parentElement
     child = parent.children[1].innerText
     if(child == "Nail Art")
-       window.location.href = "./Product-Category/nailArt.html" 
+       window.location.href = "../subheader/product-page/Product-Category/nailArt.html" 
+      
 
     if(child == "Hair Styles")
-       window.location.href = "./Product-Category/hairStyle.html" 
+       window.location.href = "../subheader/product-page/Product-Category/hairStyle.html" 
 
     if(child == "Face Makeup")
-       window.location.href = "./Product-Category/faceMakeup.html" 
+       window.location.href = "../subheader/product-page/Product-Category/FaceMakeup.html" 
 }
 
 
