@@ -1,0 +1,21 @@
+#calci {
+    text-align: center;
+}
+
+#below_para {
+ width:50%;
+ margin: auto;
+}
+
+#below_para > p {
+margin: 0 0 10px;
+line-height: 1.7;
+color: #424242;
+}
+#below_para > h2 {
+font-size: 21px;
+line-height: 1.6;
+}
+
+
+
