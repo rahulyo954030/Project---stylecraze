@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="../style/main.css"> -->
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 <body>
+    <div id="navbar-container"></div>
     <center><h1>Shop</h1></center>
     <select class="sc_products cat_list" title="category" id="cat_list">
         <option value="Category">Category</option>
@@ -73,4 +76,17 @@
 </body>
 <link rel="stylesheet" href="js.css">
 <script src="js.js"></script>
+<script type="module">
+
+    // import navbar from "../homepageNavbar/components/navbar.js"
+    import navbar from "../components/navbar.js"
+    import hoverFun from "../components/hoverFun.js"
+    
+    document.querySelector("#navbar-container").innerHTML = navbar()
+    
+    hoverFun()
+    
+    </script>
 </html>
+
+<!-- outer\homepageNavbar\components -->

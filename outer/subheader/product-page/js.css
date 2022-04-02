@@ -44,10 +44,13 @@ h1{
     margin: 1px;
     line-height: 22px
 }
-img{
+/* img{
+    width: 100%;
+} */
+
+.divname>img{
     width: 100%;
 }
-
 .read{
     margin-top: 10px;
     border-bottom: 2px solid #ffa9b6;

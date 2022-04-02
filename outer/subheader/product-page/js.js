@@ -224,18 +224,12 @@ Make_Up = [
     },
 ]
 
-// {
-//     img : "",
-//     category : "category",
-//     title : "",
-//     detail : ""
-// },
 showit = (pass) =>{
     main = document.querySelector(".photo")
     main.innerText = null
     pass.forEach(ele => {
         div = document.createElement("div")
-
+        div.className = "divname"
         i = document.createElement("img")
         i.src = ele.img
         pink = document.createElement("p")
@@ -276,3 +270,35 @@ select = document.querySelector("#cat_list")
 select.addEventListener("click",change)
 
 
+dd = document.querySelectorAll(".divname")
+dd.forEach(ele => {
+    ele.addEventListener("click",clicked)
+});
+
+function clicked(ele){
+    parent = ele.target.parentElement
+    child = parent.children[1].innerText
+    if(child == "Nail Art")
+       window.location.href = "./Product-Category/nailArt.html" 
+
+    if(child == "Hair Styles")
+       window.location.href = "./Product-Category/hairStyle.html" 
+
+    if(child == "Face Makeup")
+       window.location.href = "./Product-Category/faceMakeup.html" 
+}
+
+
+
+
+
+
+
+
+
+// juh.children
+// HTMLCollection(5) [img, p.pink, p.black, p.gray, a.read]
+// juh.children[1]
+// <p class=​"pink">​Nail Art​</p>​
+// juh.children[1].innerText
+// 'Nail Art'
