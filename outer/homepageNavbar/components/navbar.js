@@ -45,7 +45,7 @@ const navbar = () => {
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="./outer/subheader/product-page/js.html">PRODUCTS</a>
+                        <a id="" href="../../../outer/subheader/product-page.html">PRODUCTS</a>
                     </div>
                     <hr>
                     <div id="opt-nine">

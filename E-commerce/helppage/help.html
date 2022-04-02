@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style/help.css">
 </head>
 <body>
+    <div id="header"></div>
+
     <div id="page-select">
         <div>
         <a href="#">Home</a>
@@ -21,7 +23,20 @@
     </div>
     </div>
     <div id="container"></div>
+    <div id="foter"></div>
       
 </body>
 </html>
-<script src="script/help.js"></script>
+<script src="script/help.js">
+
+
+
+
+</script>
+<script type="module">
+let x =document.querySelector("#header")
+let y =document.querySelector("#foter");
+import  {header,footer} from "./E-commerce/innerhomepage/components/header.js"
+console.log(header)
+
+</script>

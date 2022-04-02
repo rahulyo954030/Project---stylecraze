@@ -41,12 +41,12 @@ const navbar = ()=> {
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="www.google.com">TOOLS</a>
+                        <a id="" href="../../../outer/subheader/tools-brands/tool/tool.html">TOOLS</a>
                         
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="./product-page.html">PRODUCTS</a>
+                        <a id="" href="../../../outer/subheader/product-page.html">PRODUCTS</a>
                     </div>
                     <hr>
                     <div id="opt-nine">

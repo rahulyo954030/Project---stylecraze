@@ -30,7 +30,7 @@ let header = () =>{
         <div > <a  class = "pages_link" href="#">Products Finder</a></div>
         <div > <a  class = "pages_link" href="#">Compare Products</a></div>
         <div > <a  class = "pages_link" href="#">Fab Campaign</a></div>
-        <div > <a  class = "pages_link" href="#">Help</a></div>
+        <div > <a  class = "pages_link" href="../helppage/help.html">Help</a></div>
     </div>
 </div>`
 };
