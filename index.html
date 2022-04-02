@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./outer/homepageNavbar/styles/navbar.css">
+    <link rel="stylesheet" href="./outer/footer/footer2.css">
 
     <style>
         #containerone{
@@ -416,6 +417,7 @@
         </div>
         
     </div>
+    <div id="footer"></div>
 </body>
 </html>
 
@@ -432,6 +434,9 @@ document.querySelector("#navbar-container").innerHTML = navbar()
 
 hoverFun()
 
+import footer from "./outer/footer/footer.js"
+console.log(footer)
+document.querySelector("#footer").innerHTML = footer()
 </script>
 
 
