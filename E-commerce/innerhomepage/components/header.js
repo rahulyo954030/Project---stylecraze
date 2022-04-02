@@ -16,8 +16,8 @@ let header = () =>{
         </div>
         <!-- Login and Signup Pages Div -->
         <div class="account_option desktop_only">
-            <div>Log In</div>
-            <div class="button_option space">Sign Up</div>
+            <div><a href="..//login%20signup/login.html">Log In</a></div>
+            <div class="button_option space"><a href="..//login%20signup/signup.html">Sign Up</a></div>
         </div>
     </div>
 </div>
