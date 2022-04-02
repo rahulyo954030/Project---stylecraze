@@ -76,10 +76,10 @@ let footer = () => {
         <div class="links">
             <div>Social Connect</div>
             <div class="pages">
-                <a class = "footer_links" href="#">
+                <a class = "footer_links" href="https://www.facebook.com/StyleCraze/">
                     <img class="footer-icon" src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/pr-images/footer-social.svg" alt="Like StyleCraze Reviews FaceBook Page">
                 </a>
-                <a class = "footer_links" href="#">
+                <a class = "footer_links" href="https://www.instagram.com/style.craze/">
                     <img class="footer-icon" src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/pr-images/footer-insta.svg" alt="Follow StyleCraze Reviews Instagram Page">
                 </a>
             </div>
@@ -90,7 +90,5 @@ let footer = () => {
 };
 
 
-
-export {header,footer}
-
-export default header;
+// This is export header and footer to the homepage or index page
+export {header,footer};
