@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
    <link rel="stylesheet" href="../style/viewall.css">
+   <link rel="stylesheet" href="../../../../E-commerce/innerhomepage/styles/footer.css">
+
 </head>
 
 <body>
-    <div id="main">
 
-        <div id="container">
+   
+    <div id="main">
+        <div id="navigator">
+            <span id="home">Home »</span>
+            <span>All Brands </span>
+        </div>
+        <div id="container_mine">
           
             <div id="wrapper">
                 <div>
@@ -509,7 +516,22 @@
             </div>
 
         </div>
+        <div id="page-numbers"><div><p>1</p></div><div><p>2</p></div><div><p>3</p></div><div><p>...</p></div><div><p>153</p></div><div><p>&gt;&gt;</p></div></div>	
+
         </div>
+        <div id="footer_bar"></div>
 </body>
 
 </html>
+<script type="module">
+    // Import Header Here from Header.js
+    import {header,footer} from "../../../../E-commerce/innerhomepage/components/header.js";
+  
+    // let navbar = document.querySelector("#header_div");
+    // navbar.innerHTML = header();
+
+    // Import Footer Here from footer.js
+    let footermain = document.querySelector("#footer_bar");
+    footermain.innerHTML = footer();
+// ecommerce
+</script>
