@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 18px;
     
 }
@@ -28,7 +28,7 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 .pages{
@@ -49,7 +49,7 @@ p{
 }
 #copyright{
     padding-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',sans-serif;
     text-align: center;
     padding-bottom: 3%;
     

@@ -1,0 +1,79 @@
+#contact_container{
+    height: auto;
+    width: 78%;
+    text-align: left;
+    margin: auto;
+    margin-top: 1%;
+}
+.page-name{
+    font-size: 22px;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Poppins',sans-serif;
+}
+.page_discription{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 0px;
+    font-size: 14px;
+}
+#contactForm {
+    width: 35%;
+    height: auto;
+
+}
+.button_new{
+    padding: 6px 5px 6px 5px;
+    background-color: #fe5c75;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.label{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+span{
+    font-weight: normal;
+}
+#options{
+    margin-top: 2%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    height: 25px;
+}
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+label{
+    margin-top: 5%;
+}
+#newTitle{
+    margin-top: 4%;
+    margin-bottom: 0px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.inner_input{
+    width: 94%;
+    line-height: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+}
+textarea{
+    width: 99%;
+    line-height: 80px;
+    border: 1px solid black;
+    margin-top: 8px;
+}
