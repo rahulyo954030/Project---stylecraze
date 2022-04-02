@@ -10,37 +10,37 @@ const navbar = ()=> {
                     </div>
                     <div>
                         <input type="text" placeholder="Search">
-                        <img src="./images/search img.png" alt="search">
+                        <img src="./outer/homepageNavbar/images/search img.png" alt="search">
                     </div>
                 </div>
 
                 <div id="options">
                     <div id="opt-one">
-                        <a id="makeup" href="">MAKEUP</a>
+                        <a id="makeup" href="./outer/subheader/makeup.html">MAKEUP</a>
                     </div>
                     <hr>
                     <div id="opt-two">
-                        <a id="haircare" href="">HAIR CARE</a>
+                        <a id="haircare" href="./outer/subheader/haircare.html">HAIR CARE</a>
                     </div>
                     <hr>
                     <div id="opt-three">
-                        <a id="skincare" href="">SKIN CARE</a>
+                        <a id="skincare" href="./outer/subheader/skincare.html">SKIN CARE</a>
                     </div>
                     <hr>
                     <div id="opt-four">
-                        <a id="hairstyles" href="">HAIRSTYLES</a>
+                        <a id="hairstyles" href="./outer/subheader/hairstyles.html">HAIRSTYLES</a>
                     </div>
                     <hr>
                     <div id="opt-five">
-                        <a id="" href="">HEALTH & WELLNESS</a>
+                        <a id="" href="./outer/subheader/healthAndWellness.html">HEALTH & WELLNESS</a>
                     </div>
                     <hr>
                     <div id="opt-six">
-                        <a id="" href="">NEWS</a>
+                        <a id="" href="./outer/subheader/news.html">NEWS</a>
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="">TOOLS</a>
+                        <a id="" href="./outer/subheader/tools-brand/component/tool.html">TOOLS</a>
                     </div>
                     <hr>
                     <div id="">
@@ -48,7 +48,7 @@ const navbar = ()=> {
                     </div>
                     <hr>
                     <div id="opt-nine">
-                        <a id="about-us" href="#">ABOUT US</a>
+                        <a id="about-us" href="./outer/subheader/about/about.html">ABOUT US</a>
                         <div id="dropdown-menu">
                             <a href="#">Our Team</a>
                             <a href="#">Editorial Policy</a>
@@ -73,6 +73,7 @@ const navbar = ()=> {
             </div>`
 
 }
+
 
 
 export default navbar

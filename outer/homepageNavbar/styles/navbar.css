@@ -84,6 +84,7 @@
 #dropdown {
   width: 90%;
   margin: auto;
+  position: absolute;
   font-family: "Poppins", sans-serif;
 }
 
@@ -208,6 +209,8 @@
 
 #opt-nine:hover #dropdown-menu {
   display: block;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
 #opt-nine:hover #about-us {

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="./outer/homepageNavbar/styles/navbar.css">
+
     <style>
         #containerone{
         width:91%;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height:auto;
@@ -67,6 +69,11 @@
 
 </head>
 <body>
+    <!-- navbar container -->
+    <div id="navbar-container"></div>
+    <!-- navbar container -->
+
+
     <!-- homepage -->
     
     <div id="containerone">
@@ -416,11 +423,16 @@
 <script type="module">
 
 import navbar from "./outer/homepageNavbar/components/navbar.js"
+import hoverFun from "./outer/homepageNavbar/components/hoverFun.js"
 
-console.log(navbar)
+
+console.log(navbar, hoverFun)
 
 document.querySelector("#navbar-container").innerHTML = navbar()
 
 hoverFun()
 
 </script>
+
+
+<script src="./index.js"></script>
