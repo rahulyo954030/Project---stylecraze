@@ -22,7 +22,7 @@
 
 /* heading css start */
 #heading{
-    width: 78%;
+    width: 82%;
     margin: auto;
     padding: 30px 0px 20px 0px;
     color: #333333;
@@ -30,9 +30,10 @@
     
 }
 .bellpera{
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 5px;
     padding-right: 5px;
+    min-height: 150px;
 }
 
 #heading h3{
@@ -51,7 +52,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    width: 78%;
+    width: 82%;
     height: auto;
     margin: auto;
     font-family: "Poppins", sans-serif;
@@ -59,7 +60,6 @@
 
 #table-container > div{
     border: 1px solid;
-    height: 440px;
     border:2px solid rgb(216, 213, 213);
 }
 
@@ -71,21 +71,16 @@
     padding: 10px 5px 10px 5px;;
 }
 .subscribe{
-    margin-top: 30%;
-    width: 96%;
-    height: 10%;
+    width: 81%;
+    height: 45px;
     font-family: 'Poppins',sans-serif;
-    font-size: 16px;
-    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
     background-color: #ff5a78;
-    border: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
+    border: none;
 }
-.specialbell{
-    margin-top: 22%;
-    margin-bottom: 0px;
-}
+
 /* table css ends */
 #listpera{
     font-size: 18px;
@@ -117,4 +112,9 @@
 .none{
     text-decoration: none;
     color: #337ab7;
+}
+
+#table-container > div button{
+    margin-left: 20px;
+    margin-bottom: 20px;
 }

@@ -7,16 +7,17 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./styles/bellIcon.css">
+    <link rel="stylesheet" href="./homepageFooter/footer.css">
 
 </head>
 <body>
     <!-- navbar codes start -->
     <div id="navbar">
-        <img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/logos/sc-logo.png.webp" alt="logo image">
+        <a href="./index.html"><img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/logos/sc-logo.png.webp" alt="logo image"></a>
     </div>
     <!-- navbar codes ends -->
 
-    <!-- headings codes start -->
+    <!-- headings codes start -->   
     <div id="heading">
         <h3>Stay updated with our push notifications!</h3>
         <p>Subscribe to the below packs to receive daily recommendations on fitness, diet, and nutrition.</p>
@@ -61,5 +62,15 @@
         </ul>
         <p class="backarticle"><a class = "none" href="#">Go Back to The Articles</a></p>
     </div>
+
+    <div id="footer"></div>
 </body>
 </html>
+
+<script type="module">
+
+import footer from "./homepageFooter/components/footer.js"
+
+document.querySelector("#footer").innerHTML = footer()
+
+</script>
