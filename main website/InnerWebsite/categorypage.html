@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="stylesheet" href="./styles/categorypage.css">
+     <!-- header css -->
+     <link rel="stylesheet" href="./styles/innerHeader.css"> 
+     <!-- footer css -->
+     <link rel="stylesheet" href="./styles/innerFooter.css">
+</head>
+<body>
+    <div id="header_div"></div>
+    <div id="grandfather">
+        <div id="page-select">
+            <div>
+            <a href="#">Home</a>
+            </div>
+            <div id="arrow">
+            <p id="arr">»</p>
+            </div>
+            <div>
+            <a href="#">All Categories</a>
+            </div>
+        </div>
+        <div id="father">
+            <div id="AllCategories">All Categories</div>
+            <div id="sortid">
+                <div id="Sort">Sort</div>
+                <div>
+                    <img src="data:image/png;base64,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" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div id="imgcontainer"></div>
+        <div id="footer_bar"></div>
+    </div>
+</body>
+</html>
+<script src="./scripts/categorypage.js"></script>
+<script type="module">
+    // Import Header Here from Header.js
+    import {header,footer} from "./components/header_footer.js";
+    let navbar = document.querySelector("#header_div");
+    navbar.innerHTML = header();
+
+    // Import Footer Here from footer.js
+    let footermain = document.querySelector("#footer_bar");
+    footermain.innerHTML = footer();
+
+</script>  

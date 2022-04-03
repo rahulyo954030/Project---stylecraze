@@ -248,5 +248,5 @@ products_data.map(function(elem){
     productType.append(div);
 
 });
-
+//https://www.bing.com/th?id=OIP.Z8cQZkDv4kO1nLBVfZGNlwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2
 

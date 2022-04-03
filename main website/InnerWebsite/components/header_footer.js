@@ -91,4 +91,6 @@ let footer = () => {
 
 
 // This is export header and footer to the homepage or index page
+
 export {header,footer};
+

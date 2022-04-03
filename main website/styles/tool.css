@@ -1,3 +1,7 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 #small_container {
     margin: auto;
     width: 70%;
