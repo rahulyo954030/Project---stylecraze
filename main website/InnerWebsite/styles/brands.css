@@ -1,4 +1,9 @@
-select {
+
+body{
+    font-family: Poppins;
+    margin-top: auto;
+}
+#selector {
     width: 80px;
     height: 25px;
        margin-right: 45px;;
@@ -7,58 +12,107 @@ select {
 #wrapper {
     display: flex;
     justify-content: space-between;
+    margin-top: 42px;
+    margin-bottom: 19px;
+
+}
+#container_mine{
     background-color: white;
 }
 
-#wrapper h1 {
+#h1tag {
     margin-top: -10px;
     font-weight: 500;
     line-height: 1.2;
     margin-left: 30px;
-    color: #333333;
 }
 
 .brand-img-border {
     width: 144px;
     height: 120px;
     background: #fff;
-    border: 1px solid #d8d8d8;
     border-radius: 4px;
     opacity: 1;
     position: relative;
     margin: 0 auto;
 }
 
-.brand-img-border a {
+.brand-img-border > a {
 
     text-decoration: none;
 
 }
 
 .ben-box {
-    width:100%;
+width:100%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 200px);
     text-align: center;
-    gap: 20px;
-    background-color: white;
+    row-gap: 31px;
 }
 
 .ben-option {
     text-align: center;
+    height: 148px;
+    border: 1px solid black;
+    margin: auto;
+    width: 158px;
 }
 
 #main {
     margin: auto;
     width:80%;
-    background-color: white;
 }
 
-p {
+.product-det{
     text-align: center;
     font: 12px/16px Poppins;
     letter-spacing: .14px;
     color: #676767;
     font-size: 12px;
     text-decoration: none;
+}
+#navigator{
+    	margin-left: 33px;;	
+    color: #ff5878;
+    font-size: 15px;
+}
+#page-numbers{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    gap: 0.5%;
+    /* margin: auto; */
+    margin-bottom: 3.5%;
+    justify-content: center;
+}
+
+
+
+/* .product-det {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* border:1px solid red */
+/* } */
+#page-numbers > div {
+    padding: 5px 10px 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: #7d8181;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+#page-numbers div {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    margin-top: auto;
+
 }
