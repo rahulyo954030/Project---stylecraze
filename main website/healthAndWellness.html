@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health and wellness</title>
+    <link rel="stylesheet" href="./styles/makeup_to_news.css">
+
+    <link rel="stylesheet" href="./homepageNavbar/styles/navbar.css">
+
+    <link rel="stylesheet" href="./homepageFooter/footer.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="page-select">
+        <div>
+        <a href="#">Home</a>
+    </div>
+        <div id="arrow">
+        <p>»</p>
+        </div>
+        <div>
+        <a href="./index.html">Health and Wellness</a>
+        <img src="" alt="">
+    </div>
+    </div>
+        <div id="container"></div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/healthAndWellness.js"></script>
+
+
+
+<script type="module">
+
+import navbar from "./homepageNavbar/components/navbar.js"
+import hoverFun from "./homepageNavbar/components/hoverFun.js"
+
+
+document.querySelector("#navbar-container").innerHTML = navbar()
+
+hoverFun()
+
+</script>
+
+
+<script type="module">
+
+import footer from "./homepageFooter/components/footer.js"
+
+document.querySelector("#footer").innerHTML = footer()
+
+</script>
+

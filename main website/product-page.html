@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./styles/product-page.css">
+    <link rel="stylesheet" href="./homepageFooter/footer.css">
+    <link rel="stylesheet" href="./homepageNavbar/styles/navbar.css">
+    
+
+
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <center><h1>Shop</h1></center>
+    <select class="sc_products cat_list" title="category" id="cat_list">
+        <option value="Category">Category</option>
+        <option value="Skin">Skin</option>
+        <option value="Make Up">Make Up</option>
+        <option value="Health">Health</option>
+        <option value="Health Devices">Health Devices</option>
+        <option value="Hair">Hair</option>
+        <option value="Fashion 2">Fashion 2</option>
+        <option value="Sports">Sports</option>
+        <option value="Fitness 2">Fitness 2</option>
+        <option value="Womens Fitness">Womens Fitness</option>
+        <option value="Fashion">Fashion</option>
+        <option value="Hair Care Ideas">Hair Care Ideas</option>
+        <option value="Wavy Hairstyles">Wavy Hairstyles</option>
+        <option value="Home And Appliances">Home And Appliances</option>
+        <option value="Health And Wellness">Health And Wellness</option>
+        <option value="Hair Colour">Hair Colour</option>
+        <option value="Skin Care Ideas">Skin Care Ideas</option>
+        <option value="Perfumes">Perfumes</option>
+        <option value="Face Make Up">Face Make Up</option>
+        <option value="Lip Make Up">Lip Make Up</option>
+        <option value="Nail Make Up">Nail Make Up</option>
+        <option value="Top 10s">Top 10s</option>
+        <option value="Beauty Secrets">Beauty Secrets</option>
+        <option value="Hairstyles">Hairstyles</option>
+        <option value="Eye Make Up">Eye Make Up</option>
+        <option value="Sunscreen Tips">Sunscreen Tips</option>
+        <option value="Dandruff">Dandruff</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Baalo Ki Dekhbhal">Baalo Ki Dekhbhal</option>
+        <option value="Twacha Ki Dekhbhal">Twacha Ki Dekhbhal</option>
+        <option value="Oily Skin">Oily Skin</option>
+        <option value="Nutrition">Nutrition</option>
+        <option value="Gym Workouts">Gym Workouts</option>
+        <option value="Single Page Gallery">Single Page Gallery</option>
+        <option value="Hair Care Solutions">Hair Care Solutions</option>
+        <option value="Glowing Skin">Glowing Skin</option>
+        <option value="Relationships">Relationships</option>
+        <option value="Acne">Acne</option>
+        <option value="Hair Treatment Tips">Hair Treatment Tips</option>
+        <option value="Control Hair Fall N Loss">Control Hair Fall N Loss</option>
+        <option value="Dry Skin">Dry Skin</option>
+        <option value="Face Packs N Masks">Face Packs N Masks</option>
+        <option value="Make Up Ideas">Make Up Ideas</option>
+        <option value="News">News</option>
+        <option value="Makeup">Makeup</option>
+        <option value="Face Care Tips">Face Care Tips</option>
+        <option value="Anti Ageing">Anti Ageing</option>
+        <option value="Weight Loss">Weight Loss</option>
+        <option value="Ingredients And Uses">Ingredients And Uses</option>
+        <option value="Weight Gain">Weight Gain</option>
+        <option value="Yoga">Yoga</option>
+        <option value="Basic Hair Care">Basic Hair Care</option>
+        <option value="Hair Growth Tips And Tricks">Hair Growth Tips And Tricks</option>
+        <option value="Dry Hair Care">Dry Hair Care</option>
+        <option value="Different Hairstyles">Different Hairstyles</option>
+        <option value="Skin Care Problems">Skin Care Problems</option>
+    </select>
+
+
+    <div class="photo">
+
+</div>
+<div id="footer"></div>
+
+</body>
+
+<script src="./scripts/product-page.js"></script>
+
+
+<script type="module">
+
+import navbar from "./homepageNavbar/components/navbar.js"
+import hoverFun from "./homepageNavbar/components/hoverFun.js"
+
+
+document.querySelector("#navbar-container").innerHTML = navbar()
+
+hoverFun()
+
+</script>
+
+
+<script type="module">
+
+import footer from "./homepageFooter/components/footer.js"
+
+document.querySelector("#footer").innerHTML = footer()
+
+</script>

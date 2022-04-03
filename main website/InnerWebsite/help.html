@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+    <link rel="stylesheet" href="./styles/help.css">
+    <!-- header css -->
+    <link rel="stylesheet" href="./styles/innerHeader.css"> 
+    <!-- footer css -->
+    <link rel="stylesheet" href="./styles/innerFooter.css">
+
+</head>
+<body>
+    <!-- footer -->
+    <div id="header_div"></div>
+
+    <div id="page-select">
+        <div>
+        <a href="#">Home</a>
+    </div>
+        <div id="arrow">
+        <p>»</p>
+        </div>
+        <div>
+        <a href="./index.html">Help</a>
+        <img src="" alt="">
+    </div>
+    </div>
+    <div id="container"></div>
+
+    <!-- footer -->
+    <div id="footer_bar"></div>
+      
+</body>
+</html>
+<script src="./scripts/help.js"></script>
+
+
+<script type="module">
+    // Import Header Here from Header.js
+    import {header,footer} from "./components/header_footer.js";
+    let navbar = document.querySelector("#header_div");
+    navbar.innerHTML = header();
+
+    // Import Footer Here from footer.js
+    let footermain = document.querySelector("#footer_bar");
+    footermain.innerHTML = footer();
+
+</script>

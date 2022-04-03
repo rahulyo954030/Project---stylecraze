@@ -1,0 +1,220 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#navbar {
+  width: 100%;
+  height: 100px;
+}
+
+#first {
+  display: flex;
+  margin: 10px auto 10px auto;
+  width: 85%;
+}
+
+#first > div:nth-child(1) {
+  width: 60%;
+  text-align: end;
+}
+
+#first > div:nth-child(1) img {
+  height: 39px;
+}
+
+#first > div:nth-child(2) {
+  width: 40%;
+  display: flex;
+  margin-top: 5px;
+  justify-content: end;
+  position: relative;
+}
+
+#first > div:nth-child(2) input {
+  width: 42%;
+  height: 21px;
+  padding: 6px 12px;
+  border: none;
+  letter-spacing: 0.5px;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#first > div:nth-child(2) input::placeholder {
+  color: #a8afb9;
+  font-family: "Poppins", sans-serif;
+}
+
+#first > div:nth-child(2) img {
+  position: absolute;
+  padding: 10px 15px 8px 0px;
+  height: 15px;
+}
+
+#options {
+  display: flex;
+  gap: 11px;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+#options a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  letter-spacing: 0.2px;
+  font-size: 16.5px;
+}
+
+#options a:hover {
+  color: #fe5c74;
+}
+
+#options hr {
+  border: 1px solid #fe5c74;
+  background-color: #fe5c74;
+  height: 20px;
+}
+
+/* dropdown css starts */
+
+#dropdown {
+  width: 90%;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  z-index: 5;
+}
+
+#dropdown-one > div,
+#dropdown-two > div,
+#dropdown-three > div,
+#dropdown-four > div,
+#dropdown-five > div,
+#dropdown-six > div {
+  width: 88%;
+  margin: 0.3% 11% 0% 4.5%;
+  height: 340px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 4px;
+}
+
+#dropdown-one > div > div:nth-child(1),
+#dropdown-two > div > div:nth-child(1),
+#dropdown-three > div > div:nth-child(1),
+#dropdown-four > div > div:nth-child(1),
+#dropdown-five > div > div:nth-child(1),
+#dropdown-six > div > div:nth-child(1) {
+  display: flex;
+  gap: 25px;
+  padding-left: 5%;
+  align-items: center;
+  height: 45px;
+  margin-top: 5px;
+  background-color: #f2f2f2;
+  color: #7d8181;
+}
+
+#dropdown-one > div > div:nth-child(2),
+#dropdown-two > div > div:nth-child(2),
+#dropdown-three > div > div:nth-child(2),
+#dropdown-four > div > div:nth-child(2),
+#dropdown-five > div > div:nth-child(2),
+#dropdown-six > div > div:nth-child(2) {
+  display: flex;
+  gap: 25px;
+  width: 94%;
+  margin: 18px auto 0px auto;
+}
+
+#dropdown-one > div > div:nth-child(2) div,
+#dropdown-two > div > div:nth-child(2) div,
+#dropdown-three > div > div:nth-child(2) div,
+#dropdown-four > div > div:nth-child(2) div,
+#dropdown-five > div > div:nth-child(2) div,
+#dropdown-six > div > div:nth-child(2) div {
+  width: 20%;
+}
+
+#dropdown-one > div > div:nth-child(2) > div img,
+#dropdown-two > div > div:nth-child(2) > div img,
+#dropdown-three > div > div:nth-child(2) > div img,
+#dropdown-four > div > div:nth-child(2) > div img,
+#dropdown-five > div > div:nth-child(2) > div img,
+#dropdown-six > div > div:nth-child(2) > div img {
+  width: 100%;
+}
+
+#dropdown-one > div > div:nth-child(2) > div p,
+#dropdown-two > div > div:nth-child(2) > div p,
+#dropdown-three > div > div:nth-child(2) > div p,
+#dropdown-four > div > div:nth-child(2) > div p,
+#dropdown-five > div > div:nth-child(2) > div p,
+#dropdown-six > div > div:nth-child(2) > div p {
+  font-size: 13.8px;
+  color: #7d8181;
+}
+
+#dropdown-one > div > button,
+#dropdown-two > div > button,
+#dropdown-three > div > button,
+#dropdown-four > div > button,
+#dropdown-five > div > button,
+#dropdown-six > div > button {
+  border: none;
+  border: 1.3px solid #fe5c74;
+  color: #fe5c74;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  padding: 5px 12px;
+  float: right;
+  margin: 5px 3% 0px 0px;
+}
+
+/* dropdown css ends */
+
+/* about us css starts */
+
+#opt-nine {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 1;
+}
+
+#dropdown-menu a {
+  color: #7d8181;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding: 8px 6px;
+  background-color: #ffffff;
+}
+
+#dropdown-menu a:hover {
+  color: #fe5c74;
+}
+
+#opt-nine:hover #dropdown-menu {
+  display: block;
+}
+
+#opt-nine:hover #about-us {
+  background-color: transparent;
+}
+
+/* about us css ends */
