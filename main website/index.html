@@ -13,10 +13,11 @@
         #containerone{
         width:91%;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 7px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height:auto;
+        border: 1px solid;
         }
         #containertwo{
         height:auto;
@@ -65,6 +66,15 @@
         margin-top: -50px;
         padding-bottom: 60px;
         }
+        #bell{
+            position: sticky;
+            
+        }
+        #bell img{
+            height: 80px;
+            width: 80px;
+        }
+        
 
     </style>
 
@@ -74,7 +84,11 @@
     <!-- navbar codes -->
     <div id="navbar-container"></div>
 
-    <!-- homepage -->
+    <!-- homepage -->   
+
+    <div id="bell">
+        <img src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/logos/bell-ding.gif" alt="">
+    </div>
     
     <div id="containerone">
         <a style="text-decoration: none;" href="">
@@ -96,6 +110,7 @@
         </div>
         </a>
     </div>
+
     <div id="containertwo">
         <img src="cont2.png" alt="">
     </div>
@@ -445,3 +460,4 @@ document.querySelector("#footer").innerHTML = footer()
 
 </script>
     
+<script src="./InnerWebsite/scripts/Showlogin.js>

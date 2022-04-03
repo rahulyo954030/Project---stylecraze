@@ -59,6 +59,8 @@
 
 <script>
 
+let loginValue= "no"
+
 let loginArr = JSON.parse(localStorage.getItem("signupData"))
 
 document.querySelector("#myForm").addEventListener("submit", (event)=> {
@@ -74,8 +76,9 @@ document.querySelector("#myForm").addEventListener("submit", (event)=> {
         {
             if(password === loginArr[i].password)
             {
-                window.location.href = "#"
-                console.log("login Successful")
+                window.location.href = "innerHomepage.html"
+                loginValue = "yes"
+                localStorage.setItem("loginValue", JSON.stringify(loginValue))
             }
             else
             {
@@ -105,3 +108,4 @@ document.querySelector("#myForm").addEventListener("submit", (event)=> {
 })
 
 </script>
+<script src="./scripts/Showlogin.js"></script>
