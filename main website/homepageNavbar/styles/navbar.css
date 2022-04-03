@@ -154,6 +154,7 @@
 #dropdown-five > div > div:nth-child(2) > div img,
 #dropdown-six > div > div:nth-child(2) > div img {
   width: 100%;
+  height: 120px;
 }
 
 #dropdown-one > div > div:nth-child(2) > div p,
@@ -225,3 +226,5 @@
 }
 
 /* about us css ends */
+
+

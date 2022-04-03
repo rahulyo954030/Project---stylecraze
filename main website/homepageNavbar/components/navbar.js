@@ -59,7 +59,7 @@ const navbar = ()=> {
                     </div>
                     <hr>
                     <div id="">
-                        <a id="" href="./InnerWebsite/innerHomepage.html">LOGIN/SIGNUP</a>
+                        <a id="" href="./InnerWebsite/innerHomepage.html">E-COMMERCE</a>
                     </div>
                 </div>
 
