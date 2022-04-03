@@ -18,10 +18,10 @@ body{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-img{
+/* img{
     height: 90%;
     width: 90%;
-}
+} */
 .space{
     margin-left: 20px;
 }
@@ -92,6 +92,15 @@ input{
     /* border-bottom: 3px solid #fe5c75;
     padding-bottom: 12%; */
 }
+
+#header_div{
+    position: sticky;
+    top: 0%;
+    visibility: visible;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 391px) {
     #page_header{
         font-family:'Poppins',sans-serif;
