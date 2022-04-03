@@ -24,8 +24,13 @@ let header = () =>{
 <!-- Navbar Main Pages Link HomePage etc -->
 <div id="main_cont">
     <div id="main_pages">
+<<<<<<< HEAD
         <div > <a  class = "pages_link" href="innerHomepage.html">Home</a></div>
         <div > <a  class = "pages_link" href="categorypage.html">Categories</a></div>
+=======
+        <div > <a  class = "pages_link" href="innerHomePage.html">Home</a></div>
+        <div > <a  class = "pages_link" href="#">Categories</a></div>
+>>>>>>> 5e3f5da16637fbada57c6eddec38f47065788ffb
         <div > <a  class = "pages_link" href="brands.html">Brands</a></div>
         <div > <a  class = "pages_link" href="productFinder.html">Products Finder</a></div>
         <div > <a  class = "pages_link" href="#">Compare Products</a></div>
@@ -42,26 +47,26 @@ let footer = () => {
         <div class = "links">
             <div>Quick Links</div>
             <div class="pages">
-                <div><a class = "footer_links" href="#">Home</a></div>
+                <div><a class = "footer_links" href="innerHomepage.html">Home</a></div>
                 <div><a class = "footer_links" href="#">All Categories</a></div>
-                <div><a class = "footer_links" href="#">All Brands</a></div>
+                <div><a class = "footer_links" href="brands.html">All Brands</a></div>
                 <div><a class = "footer_links" href="#">Compare Products</a></div>
-                <div><a class = "footer_links" href="#">Products Finder</a></div>
-                <div><a class = "footer_links" href="#">Fab Campaigns</a></div>
+                <div><a class = "footer_links" href="productFinder.html">Products Finder</a></div>
+                <div><a class = "footer_links" href="fabCampaigns.html">Fab Campaigns</a></div>
                 <div><a class = "footer_links" href="#">Products Review Sitemap</a></div>
             </div>
         </div>
         <div class="links">
             <div>Company</div>
             <div class="pages">
-                <div><a class = "footer_links" href="#">About Us</a></div>
+                <div><a class = "footer_links" href="..//about.html">About Us</a></div>
                 <div><a class = "footer_links" href="#">Terms of Use</a></div>
             </div>
         </div>
         <div class="links">
             <div>Help & Support</div>
             <div class="pages">
-                <div><a class = "footer_links" href="#">Help</a></div>
+                <div><a class = "footer_links" href="help.html">Help</a></div>
                 <div><a class = "footer_links" href="#">FAQ's</a></div>
                 <div><a class = "footer_links" href="#">Report an Issue</a></div>
                 <div><a class = "footer_links" href="contactus.html">Contact Us</a></div>
