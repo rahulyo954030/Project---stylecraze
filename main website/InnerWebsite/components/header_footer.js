@@ -24,8 +24,8 @@ let header = () =>{
 <!-- Navbar Main Pages Link HomePage etc -->
 <div id="main_cont">
     <div id="main_pages">
-        <div > <a  class = "pages_link" href="#">Home</a></div>
-        <div > <a  class = "pages_link" href="#">Categories</a></div>
+        <div > <a  class = "pages_link" href="innerHomepage.html">Home</a></div>
+        <div > <a  class = "pages_link" href="categorypage.html">Categories</a></div>
         <div > <a  class = "pages_link" href="brands.html">Brands</a></div>
         <div > <a  class = "pages_link" href="productFinder.html">Products Finder</a></div>
         <div > <a  class = "pages_link" href="#">Compare Products</a></div>
